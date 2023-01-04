@@ -1,1 +1,2 @@
-# TestingPractivce
+# TestingPractice
+The aim of this mini project is to start putting into practice unitary testing in functions that receive or/and return strings, arrays, objects...
