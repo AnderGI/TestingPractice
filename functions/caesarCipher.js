@@ -104,7 +104,7 @@ const encript = (character) => {
     return num === " " ? " " : charToNum[num === 27 ? 0 : num];
   };
   
- export  const ceaserCipher = (string) => {
+ export const ceaserCipher = (string) => {
     const charArray = string.split("");
     const encriptedCharToNum = [];
     const encriptedNumToNewChar = [];
@@ -118,3 +118,5 @@ const encript = (character) => {
     }
     return encriptedNumToNewChar.join("");
   };
+
+  console.log(ceaserCipher("defend the east wall of the castle"))
